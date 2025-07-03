@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nuestro Wattpad</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      background-color: #fff8f0;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #ff9966;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    main {
+      padding: 30px;
+      text-align: center;
+    }
+    button {
+      margin: 10px;
+      padding: 12px 24px;
+      background-color: #ff9966;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #ff7733;
+    }
+    footer {
+      margin-top: 50px;
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Nuestro Wattpad Personal 💌
+  </header>
+  <main>
+    <p>Bienvenidx a nuestro espacio de historias, pensamientos y momentos. Aquí escribimos para el otro.</p>
+    <button onclick="location.href='historia1.html'">Leer historias de Ella 🧡</button>
+    <button onclick="location.href='historia2.html'">Leer historias de Él 💙</button>
+    <footer>
+      <p>Hecho con amor por nosotros dos</p>
+    </footer>
+  </main>
+</body>
+</html>
