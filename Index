@@ -49,7 +49,7 @@
     Nuestro Wattpad Personal 💌
   </header>
   <main>
-    <p>Bienvenidx a nuestro espacio de historias, pensamientos y momentos. Aquí escribimos para el otro.</p>
+    <p>Bienvenida a nuestro espacio de historias, pensamientos y momentos. Aquí escribimos para el otro.</p>
     <button onclick="location.href='historia1.html'">Leer historias de Ella 🧡</button>
     <button onclick="location.href='historia2.html'">Leer historias de Él 💙</button>
     <footer>
