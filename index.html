@@ -11,51 +11,52 @@
       color: #333;
       margin: 0;
       padding: 0;
-      background-image: url('imagenes/fondo.jpg'); /* imagen de fondo */
+      background-image: url('imagenes/fondo.jpg');
       background-size: cover;
       background-position: center;
       background-attachment: fixed;
     }
 
     header {
-      background-color: #ff9966; 
+      background-color: #00e0c6; /* color turquesa */
       color: white;
-      padding: 20px;
+      padding: 24px 20px;
       text-align: center;
-      font-size: 28px;
+      font-size: 30px;
       font-weight: bold;
       margin-bottom: 40px;
     }
 
     main {
-      padding: 30px;
+      padding: 40px 30px;
       max-width: 800px;
       margin: auto;
-      background-color: rgba(255, 255, 255, 0.85);
-      border-radius: 12px;
-      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      background-color: rgba(255, 255, 255, 0.88);
+      border-radius: 16px;
+      box-shadow: 0 0 18px rgba(0,0,0,0.12);
     }
 
     main p {
       font-size: 18px;
-      margin-bottom: 40px;
+      margin-bottom: 50px;
+      text-align: center;
     }
 
     .story-button {
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 10px;
-      margin: 20px auto;
+      gap: 12px;
+      margin: 25px auto;
       padding: 14px 28px;
       background-color: #00e0c6;
       color: white;
       border: none;
-      border-radius: 10px;
+      border-radius: 12px;
       font-size: 18px;
       cursor: pointer;
-      transition: transform 0.2s ease-in-out;
-      width: 280px;
+      transition: transform 0.2s ease-in-out, background-color 0.2s ease;
+      width: 300px;
     }
 
     .story-button:hover {
@@ -64,16 +65,16 @@
     }
 
     .story-button img {
-      width: 40px;
-      height: 40px;
+      width: 42px;
+      height: 42px;
       object-fit: cover;
       border-radius: 50%;
     }
 
     footer {
-      margin-top: 50px;
-      font-size: 14px;
-      color: #777;
+      margin-top: 60px;
+      font-size: 15px;
+      color: #666;
       text-align: center;
     }
   </style>
@@ -94,7 +95,7 @@
       <img src="imagenes/el.jpeg" alt="Él">
       Leer historias de Él 💙
     </button>
-     
+
     <footer>
       <p>Hecho con amor por y para nosotros dos</p>
     </footer>
