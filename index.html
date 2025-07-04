@@ -7,10 +7,10 @@
   <style>
     body {
       font-family: 'Georgia', serif;
-      background-color: #fff8f0;
-      color: #333;
+      background-color: #00e0c6; /* nuevo color */
+      color: #222;
       margin: 0;
-      padding: 0;
+      padding: 20px;
     }
     header {
       background-color: #ff9966;
@@ -33,9 +33,11 @@
       border-radius: 6px;
       font-size: 16px;
       cursor: pointer;
+      transition: transform 0.2s ease-in-out;
     }
     button:hover {
       background-color: #ff7733;
+      transform: scale(1.05);
     }
     footer {
       margin-top: 50px;
@@ -50,18 +52,17 @@
   </header>
   <main>
     <p>Bienvenida a nuestro espacio de historias, pensamientos y momentos. Aquí escribimos para el otro.</p>
-    <button onclick="location.href='historia1.html'">mi amor de sonrisa gentil... 🧡</button>
-    <button onclick="location.href='historia2.html'">A mi más amada coincidencia... 💙</button>
-    <button onclick="location.href='historia1.html'">mi amor de sonrisa gentil... 🧡</button>
-    <button onclick="location.href='historia2.html'">A mi más amada coincidencia... 💙</button>
-    <button onclick="location.href='historia1.html'">mi amor de sonrisa gentil... 🧡</button>
-    <button onclick="location.href='historia2.html'">A mi más amada coincidencia... 💙</button>
-    <button onclick="location.href='historia1.html'">mi amor de sonrisa gentil... 🧡</button>
-    <button onclick="location.href='historia2.html'">A mi más amada coincidencia... 💙</button>
-    <button onclick="location.href='historia1.html'">mi amor de sonrisa gentil... 🧡</button>
-    <button onclick="location.href='historia2.html'">A mi más amada coincidencia... 💙</button>
-    <button onclick="location.href='historia1.html'">mi amor de sonrisa gentil... 🧡</button>
-    <button onclick="location.href='historia2.html'">A mi más amada coincidencia... 💙</button>
+
+    <button onclick="location.href='historias/historia2.html'">
+      <img src="imagenes/el.jpeg" alt="Él" style="width: 40px; vertical-align: middle; margin-right: 10px;">
+      Leer historias de Él 💙
+    </button>
+     
+    <button onclick="location.href='historias/historia1.html'">
+      <img src="imagenes/ella.jpg" alt="Ella" style="width: 40px; vertical-align: middle; margin-right: 10px;">
+      Leer historias de Ella 🧡
+    </button>
+
     <footer>
       <p>Hecho con amor por y para nosotros dos</p>
     </footer>
